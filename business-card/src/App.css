@@ -1,0 +1,71 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  padding: 0;
+  background-color:#282c34;
+  min-width: 100vh;
+}
+h2{
+  margin: 10px 0;
+}
+p{
+  margin: 5px 0;
+}
+.App {
+  width: 50%;
+  margin: 50px auto;
+  background-color: bisque;
+  border-radius: 20px;
+  /* text-align: center; */
+}
+
+.Card-picture {
+  width: 100%;
+  /* height: 250px; */
+  height: 42vmin;
+  border-radius: 20px 20px 0 0 ;
+  pointer-events: none;
+}
+.Card-info{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+.Btn{
+  padding-top: 10px;
+  display: flex;
+  gap: 30px;
+}
+.Btn button{
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+.Btn1{
+  border: 1px solid white;
+  background-color: white;
+}
+.Btn2{
+  border: 1px solid #61dafb;
+  background-color: #61dafb;
+  color: white;
+}
+.Container{
+  width: 100%;
+  margin: 0 30px;
+}
+.P1, .P2{
+  width: 85%;
+  word-wrap: break-word;
+}
+footer{
+  display: flex;
+  justify-content: center;
+  padding: 6px;
+  margin-top: 30px;
+  gap: 8px;
+  background-color: rgb(166, 56, 56);
+  border-radius: 0 0 18px 18px;
+}
