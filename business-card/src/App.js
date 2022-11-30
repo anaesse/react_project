@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import businessCard from './businessCard.jpg';
 import './App.css';
 
