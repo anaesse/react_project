@@ -8,7 +8,7 @@ function About() {
 
       <div className="About">
         <h2 className="Container">About</h2>
-        <p className="P1">gvhgfvhgfsdvuyfthgnbvdkxggvygiuagjbmvjggkdbjhudgjhvvhxvjbhvchvhcvncvhmcvjnmxcjcjhuyhgvdxnchvn</p>
+        <p className="P1">I'm a graduate of computer engineering, an ever growing creative, passionate about tech, and enjoy making beautiful and simple things.</p>
       </div>
     //   </div>
     // </div>

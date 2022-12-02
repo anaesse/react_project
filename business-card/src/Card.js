@@ -10,7 +10,7 @@ function Card() {
         <div className="Card-info">
           <h2>Sophia Edeki</h2>
           <p>Fullstack Developer</p>
-          <small>hjgjgkjhdhskk gg</small>
+          <small>Javascript Python</small>
         </div>
       </header>
       <div className="Btn Container">
