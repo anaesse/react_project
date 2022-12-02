@@ -5,7 +5,11 @@ body{
   margin: 0;
   padding: 0;
   background-color:#282c34;
-  min-width: 100vh;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 h2{
   margin: 10px 0;
@@ -13,18 +17,26 @@ h2{
 p{
   margin: 5px 0;
 }
-.App {
-  width: 50%;
-  margin: 50px auto;
+
+.Card-container{
   background-color: bisque;
-  border-radius: 20px;
-  /* text-align: center; */
+  border-radius: 20px 20px 0 0;
+  /* height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; */
+  
+
+}
+.Container{
+  margin-left: 40px;
 }
 
 .Card-picture {
   width: 100%;
-  /* height: 250px; */
-  height: 42vmin;
+  height: 200px;
+  /* height: 35vmin; */
   border-radius: 20px 20px 0 0 ;
   pointer-events: none;
 }
@@ -33,6 +45,7 @@ p{
  flex-direction: column;
  justify-content: center;
  align-items: center;
+ margin-bottom: 5px;
 }
 .Btn{
   padding-top: 10px;
@@ -52,19 +65,25 @@ p{
   background-color: #61dafb;
   color: white;
 }
-.Container{
-  width: 100%;
-  margin: 0 30px;
+.About{
+  background-color: bisque;
+  padding: 5px 0;
+}
+.Interest{
+  background-color: bisque;
+  padding: 5px 0;
 }
 .P1, .P2{
-  width: 85%;
+  width: 430px;
   word-wrap: break-word;
+  margin-left: 40px;
+  padding: 8px 10px 8px 0;
 }
 footer{
   display: flex;
   justify-content: center;
-  padding: 6px;
-  margin-top: 30px;
+  padding: 8px;
+  
   gap: 8px;
   background-color: rgb(166, 56, 56);
   border-radius: 0 0 18px 18px;
