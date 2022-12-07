@@ -42,6 +42,9 @@ section{
 .Star--image{
   height:14px;
 }
+.Card--image{
+  width:100%;
+}
 .Ratings{
   display: flex;
   align-items: center;
