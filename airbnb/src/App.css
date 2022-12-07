@@ -1,0 +1,64 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  margin:0;
+  font-family: 'poppins', sans-serif;
+}
+.Airbnb-logo{
+  height: 70px;
+  display: flex;
+  padding: 20px 36px;
+}
+.Navbar{
+  box-shadow: 0px 2.9825618267059326px 7.456404209136963px 0px rgba(0, 0, 0, 0.1);
+
+}
+section{
+  padding: 30px;
+}
+.Hero{
+  display: flex;
+  flex-direction: column;
+}
+.Hero--image {
+  max-width:400px;
+  align-self: center;
+}
+.Hero--header{
+  margin-bottom: 16px;
+}
+.Hero--text{
+  margin-top: 0;
+}
+.Card--details{
+  width:175px;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 13px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.Star--image{
+  height:14px;
+}
+.Ratings{
+  display: flex;
+  align-items: center;
+}
+.Card--rating{
+  color: #918E9B;
+}
+.Card--desc{
+  color: #222222;
+}
+
+.Card--cost{
+  font-weight: 600;
+  color: #918E9B;
+  
+}
+.Card--cost span{
+color:#222222;
+
+}
