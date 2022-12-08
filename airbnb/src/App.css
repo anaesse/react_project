@@ -31,11 +31,8 @@ section{
 .Hero--text{
   margin-top: 0;
 }
-.Card--container{
+.Card--container {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-direction: row;
 }
 .Card--details{
   width:175px;
