@@ -1,7 +1,4 @@
 import star from '../assets/star.png';
-// import '../assets/card.png'
-// import '../assets/card2.png'
-// import '../assets/card3.png'
 import '../App.css';
 
 function Card(props) {
