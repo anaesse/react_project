@@ -4,27 +4,30 @@ var airbnbData = [
         img: "card.png",
         rating: "5.0",
         reviewCount: 6,
-        country: "USA",
+        location: "Online",
         title: "Life lessons with Katie Zaferes",
         price: 136,
+        openSpots: 0,
     },
     {
         id: 2,
         img: "card2.png",
         rating: "5.0",
         reviewCount: 30,
-        country: "Norway",
+        location: "Online",
         title: "Learn Wedding Photography",
         price: 125,
+        openSpots: 27,
     },
     {
         id: 3,
         img: "card3.png",
         rating: "4.8",
         reviewCount: 2,
-        country: "Germany",
+        location: "",
         title: "Group Mountain Bikin",
         price: 50,
+        openSpots: 3,
     }
 
 ]

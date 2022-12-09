@@ -11,13 +11,15 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 
 const airbnbElements = airbnbData.map(item => {
   return ( 
-  <Card 
+  <Card
+      key={item.id}
       img={item.img}
       rating={item.rating}
       reviewCount={item.reviewCount}
-      country={item.country}
+      location={item.location}
       title={item.title}
       price={item.price}
+      openSpots={item.openSpots}
   />
   )
 })
