@@ -13,13 +13,14 @@ const airbnbElements = airbnbData.map(item => {
   return ( 
   <Card
       key={item.id}
-      img={item.img}
-      rating={item.rating}
-      reviewCount={item.reviewCount}
-      location={item.location}
-      title={item.title}
-      price={item.price}
-      openSpots={item.openSpots}
+      item={item}
+      // img={item.img}
+      // rating={item.rating}
+      // reviewCount={item.reviewCount}
+      // location={item.location}
+      // title={item.title}
+      // price={item.price}
+      // openSpots={item.openSpots}
   />
   )
 })

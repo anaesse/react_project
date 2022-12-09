@@ -24,7 +24,7 @@ var airbnbData = [
         img: "card3.png",
         rating: "4.8",
         reviewCount: 2,
-        location: "",
+        location: "Norway",
         title: "Group Mountain Bikin",
         price: 50,
         openSpots: 3,

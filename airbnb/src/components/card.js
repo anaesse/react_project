@@ -3,9 +3,9 @@ import '../App.css';
 
 function Card(props) {
   let badgeText
-  if (props.openSpots === 0) {
+  if (props.item.openSpots === 0) {
     badgeText = "SOLD OUT"
-  } else if (props.location === "Online"){
+  } else if (props.item.location === "Online"){
     badgeText = "ONLINE"
   }
   return (
@@ -13,15 +13,15 @@ function Card(props) {
 
         <div className='Card--details'>
             {badgeText && <div className='Card--badge'>{badgeText}</div>}
-            <img src={`../assets/${props.img}`} className="Card--image" alt="Card" />
+            <img src={`../assets/${props.item.img}`} className="Card--image" alt="Card" />
             <div className='Ratings'>
             <img src={star} className="Star--image" alt="Ratings" />
-            <span>{props.rating}</span>
-            <span className='Card--rating'>({props.reviewCount}) . </span>
-            <span className='Card--rating'>{props.location}</span>
+            <span>{props.item.rating}</span>
+            <span className='Card--rating'>({props.item.reviewCount}) . </span>
+            <span className='Card--rating'>{props.item.location}</span>
             </div>
-            <p className='Card--desc'>{props.title}</p>
-            <p className='Card--cost'><span> From  ${props.price} </span>/ person
+            <p className='Card--desc'>{props.item.title}</p>
+            <p className='Card--cost'><span> From  ${props.item.price} </span>/ person
             </p>
         </div>
     </section>
