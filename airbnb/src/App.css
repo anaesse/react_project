@@ -31,8 +31,14 @@ section{
 .Hero--text{
   margin-top: 0;
 }
-.Card--container {
+/* .Card--container {
   display: flex;
+} */
+.Cards--list{
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 20px;
+  overflow: auto;
 }
 .Card--details{
   width:175px;
@@ -41,12 +47,18 @@ section{
   line-height: 13px;
   letter-spacing: 0em;
   text-align: left;
+  /* flex: 0 0 auto;
+  display: flex;
+  flex-direction: column; */
+
 }
 .Star--image{
   height:14px;
 }
 .Card--image{
   width:100%;
+  height: 250px;
+  border-radius: 9px;
 }
 .Ratings{
   display: flex;

@@ -3,7 +3,7 @@ import '../App.css';
 
 function Card(props) {
   return (
-    <section className='Card--container'>
+    <section>
 
         <div className='Card--details'>
 

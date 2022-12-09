@@ -4,37 +4,31 @@ import './index.css';
 import Navbar from './components/navbar';
 import Hero from './components/hero';
 import Card from './components/card';
+import airbnbData from './data';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
+const airbnbElements = airbnbData.map(item => {
+  return ( 
+  <Card 
+      img={item.img}
+      rating={item.rating}
+      reviewCount={item.reviewCount}
+      country={item.country}
+      title={item.title}
+      price={item.price}
+  />
+  )
+})
+
 root.render(
   <React.StrictMode>
     <Navbar />
     <Hero />
-    <Card
-      img = "card.png"
-      rating = "5.0"
-      reviewCount = {6}
-      country = "USA"
-      title = "Life lessons with Katie Zaferes"
-      price = {136}
-    />
-    <Card
-       img= "card2.png"
-       rating = "5.0"
-       reviewCount = {30}
-       country = "Norway"
-       title = "Learn Wedding Photography"
-       price = {125}
-    />
-    <Card 
-       img = "card3.png"
-       rating = "4.8"
-       reviewCount = {2}
-       country = "Germany"
-       title = "Group Mountain Bikin"
-       price = {50}
-    />
+    <div className='Cards--list'>
+    {airbnbElements}
+    </div>
   </React.StrictMode>
 );
 
